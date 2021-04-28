@@ -7,10 +7,44 @@
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
     <link rel="manifest" href="/site.webmanifest" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <h1 class="text-lg">site in progress <a href="/invite" class="underline">invite</a></h1>
-    <img src="BronzeMedalist.png" alt="">
+    <div
+      class="flex justify-center items-center min-h-screen flex-col bg-gradient-to-tr from-yellow-300 to-[#ee3f53]"
+    >
+      <h1 class="text-3xl sm:text-5xl md:text-6xl font-bold text-white">
+        Bronze Medalist
+      </h1>
+      <h2 class="text-white text-lg sm:text-xl md:text-2xl">
+        A very cool discord currency bot.
+      </h2>
+      <img
+        class="w-40 rounded-full my-5"
+        src="BronzeMedalist.png"
+        alt="Profile Picture"
+      />
+      <div class="flex">
+        <a
+          class="from-yellow-600 via-[#e99508] to-yellow-600 py-2 px-3 bg-gradient-to-r bg-200auto hover:bg-pos hover:bg-right duration-150 text-xl transform hover:scale-110 rounded text-white mr-4"
+          href="/invite"
+          >Invite</a
+        >
+        <a
+          class="from-gray-800 via-gray-600 to-gray-800 py-2 px-3 bg-gradient-to-r bg-200auto hover:bg-pos hover:bg-right duration-150 text-xl transform hover:scale-110 rounded text-white"
+          href="https://github.com/realcyguy/bronze-medalist"
+          >Source</a
+        >
+      </div>
+    </div>
+    <div class="absolute bottom-0 text-center flex justify-center w-screen text-white">
+      By 
+      <a class="underline mx-1" href="https://realcyguy.netlify.app">Cyrus Yip,</a>
+      <a class="underline" href="https://github.com/realcyguy/bronze-medalist-website">source</a>
+    </div>
     <script type="module" src="/main.js"></script>
   </body>
 </html>
